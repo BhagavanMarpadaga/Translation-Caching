@@ -6,7 +6,7 @@
         <li>node-cache package for caching</li>
         <li>Mocha chai to test the apis</li>
     </ul>
-<h1>Task</h1>
+<h2>Task</h2>
     <ul>
         <li>Create a web server with a RESTful API to translate a text from one language to another</li>
         <li>For the actual translation, you can use an external service like Google Translate or Bing Translations. 
@@ -16,6 +16,14 @@
         <li>The server should have an extensible architecture. E.g. We may want to change our caching strategy or switch out our 
         translation service</li>
     </ul>
-    <h1>Git Clone</h1>
-    <p>To use this repository in your local system-</p>
-    <p>git clone https://github.com/BhagavanMarpadaga/Hospital-api.git</p>
+<h2>Usage</h2>
+    <ul>
+        <li>To use this repository in your local system write: git clone https://github.com/BhagavanMarpadaga/Hospital-api.git </li>
+        <li>install dependencies using: npm install</li>
+        <li>create a .env file add all security keys i.e.. PORT,SUBSCRIPTION_KEY,ENDPOINT,LOCATION,IP</li>
+        <li>Run using command in terminal using npm start</li>
+        <li>To translate and see output we can postman by hittling the url<br>EX: URL: http://localhost/8000 and by passing body (x-www-form-urlencoded)  </li>
+        <li></li>
+    </ul>
+
+
