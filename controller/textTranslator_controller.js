@@ -74,7 +74,7 @@ module.exports.translateText = function (req, res) {
             //return only the requested language translation
             return res.status(200).json({
                 message: "success",
-                text: response.data[0].translations
+                text: response.data[0].translations[0].text
             })
 
         }).catch(err => {
