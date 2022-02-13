@@ -22,14 +22,17 @@
         <li>install dependencies using: <b>npm install</b></li>
         <li>create a .env file add all security keys i.e.. <b>PORT,SUBSCRIPTION_KEY,ENDPOINT,LOCATION,IP</b></li>
         <li>Fire the server using command : <b>npm start</b></li>
-        <li>To translate and see output we can postman by hittling the url<br>EX: URL: http://localhost/8000 and by passing below key value pairs under body (x-www-form-urlencoded)<br>
-        EX:<br>
-        translateText : I am saying hello<br>
+        <li>To translate and see output we can use postman by hittling the url<br> URL: http://localhost/8000 and by passing below key value pairs under body (x-www-form-urlencoded)<br>
+        EX:translateText : I am saying hello<br>
         translatefrom :  en<br>
         translateTo : hi<br>
-        Note:For the <b>translatefrom</b>, <b>translateTo</b> only ISO language codes should be passed<br>
+        Note: For the <b>translatefrom</b>, <b>translateTo</b> only ISO language codes should be passed<br>
         Please refer this <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support"> article</a></li>
-        <li></li>
+    </ul>
+<h2>Testing</h2>
+    <ul>
+        <li>Testing on our REST API is done using mocha and chai</li>
+        <li>Run the command: <b>npm test</b></li>
     </ul>
 
 
