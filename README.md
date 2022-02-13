@@ -20,7 +20,7 @@
     <ul>
         <li>To use this repository in your local system write: git clone https://github.com/BhagavanMarpadaga/Hospital-api.git </li>
         <li>install dependencies using: <b>npm install</b></li>
-        <li>create a .env file add all security keys i.e.. <b>PORT,SUBSCRIPTION_KEY,ENDPOINT,LOCATION,IP<b></li>
+        <li>create a .env file add all security keys i.e.. <b>PORT,SUBSCRIPTION_KEY,ENDPOINT,LOCATION,IP</b></li>
         <li>Fire the server using command : <b>npm start</b></li>
         <li>To translate and see output we can postman by hittling the url<br>EX: URL: http://localhost/8000 and by passing below key value pairs under body (x-www-form-urlencoded)<br>
         EX:<br>
