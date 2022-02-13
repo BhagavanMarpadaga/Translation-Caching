@@ -1,7 +1,5 @@
 <h1>Translation Caching</h1>
-    <ul>
-        <li>This is a project to design an API to translate text from one language to another language</li>
-    </ul>
+    <p>This is a project to design an API to translate text from one language to another language</p>
     <ul>
         <li>Tech Stack used: NodeJS,Express</li>
         <li>Azure Bing as an external service for actual translation</li>
